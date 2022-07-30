@@ -41,7 +41,7 @@ const OpenLetterPage: NextPage<
           content={publishedDate}
         />
         {authors.map((author) => (
-          <meta property="article:author" content={author.name} />
+          <meta key={author.name} property="article:author" content={author.name} />
         ))}
       </Head>
       <main className="min-h-screen w-screen lg:pt-8 bg-[#f5f5f5]">
