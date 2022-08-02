@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  a {
+    @apply text-primary;
+    @apply transition ease-in-out duration-100;
+  }
+  a:hover {
+    @apply text-green-400;
+    @apply underline underline-offset-8;
+  }
+}
