@@ -5,13 +5,13 @@ import SiteFooter from '../components/SiteFooter';
 const AboutPage: NextPage = () => {
   return (
     <>
-      <div className="h-full min-h-[85vh] lg:p-4 bg-[#f5f5f5] dark:bg-gray-900 dark:text-white">
-        <header className="text-center text-4xl py-4 font-bold font-display">
+      <div className="h-full min-h-[85vh] md:p-4 bg-[#f5f5f5] dark:bg-gray-900 dark:text-white">
+        <header className="text-center text-3xl md:text-4xl py-4 font-bold font-display">
           About Open Letter
         </header>
         <section
           id="info"
-          className="max-w-3xl mx-auto shadow-md rounded-md p-4 bg-white dark:bg-gray-600"
+          className="max-w-3xl mx-auto shadow-md md:rounded-md p-4 bg-white dark:bg-gray-600"
         >
           <section id="what" className="my-4">
             <h1 className="text-2xl font-bold font-display mb-2">
