@@ -7,8 +7,14 @@
     @apply text-primary;
     @apply transition ease-in-out duration-100;
   }
+
   a:hover {
     @apply text-green-400;
-    @apply underline underline-offset-8;
+    @apply underline underline-offset-4 decoration-2;
+  }
+
+  h1 {
+    @apply font-display;
+    @apply font-bold;
   }
 }
